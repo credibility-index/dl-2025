@@ -8,7 +8,7 @@ classification
 * https://colab.research.google.com/drive/1Y99KD3-zsJak0hWo0TtvABrM0CZ2_m0p?authuser=3#scrollTo=J_Jau1EqMxmG
 
 # Multi-Branch MLP для Wine Quality Classification
-
+https://colab.research.google.com/drive/1Wk3gl077CLhR-SVNk3J4i3pS0sjwhWoc?usp=sharing
 ## 📌 Описание
 Реализация multi-branch нейронной сети для мультиклассовой классификации качества вина (Wine Quality Dataset, 6 классов: оценки 3-8).
 
