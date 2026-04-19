@@ -82,4 +82,47 @@ classification
 - matplotlib / seaborn
 
 ## 📁 Структура репозитория
+├── multi_branch_classification.ipynb # Основной ноутбук
+├── README.md # Документация
+└── requirements.txt # Зависимости
 
+text
+
+## 🚀 Запуск
+
+### Локально:
+```bash
+pip install -r requirements.txt
+jupyter notebook multi_branch_classification.ipynb
+Google Colab:
+Открыть Colab
+
+File → Upload notebook
+
+Выбрать файл
+
+Run All
+
+📝 Выводы
+Модель успешно решает задачу мультиклассовой классификации Wine Quality датасета, достигая F1 macro = 0.5354, что значительно превышает требуемые 40%.
+
+Ключевые факторы успеха:
+
+Multi-branch архитектура с тремя типами блоков
+
+SMOTE для балансировки редких классов
+
+Weighted Cross-Entropy Loss
+
+Подбор гиперпараметров (hidden_dim, num_blocks, lr, optimizer)
+
+Early stopping для предотвращения переобучения
+
+🔗 Дополнительные материалы
+Ноутбук в Google Colab
+
+👤 Автор
+[Анастасия Б.]
+
+📅 Дата
+Апрель 2026
